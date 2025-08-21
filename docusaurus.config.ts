@@ -142,6 +142,14 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
+    plugins: [
+      [
+        require.resolve("docusaurus-lunr-search"),
+        {
+          languages: ["en", "th"], // language codes
+        },
+      ],
+    ],
   } satisfies Preset.ThemeConfig,
 };
 
