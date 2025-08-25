@@ -53,3 +53,9 @@ let foo = 10;
 
 foo = 20;
 ```
+
+---
+
+สามารถรับชมแบบวิดีโอได้ที่นี่ครับ
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Qwj4YwwFhgE?si=FDjoMzCy157V3mvn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

@@ -175,3 +175,11 @@ const main = () => {
 ```
 
 ดังนั้นสำหรับผมคิดว่าการเลือกใช้ promise หรือ async/await ขึ้นอยู่กับสไตล์การเขียนโค้ด ความถนัดของทีม กับข้อตกลงที่คุยกันไว้ครับ
+
+---
+
+สามารถรับชมแบบวิดีโอได้ที่นี่ครับ
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lvZXg1tLBrM?si=_y3T0qkZARBpUEKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cQnfKsDhpNA?si=AmWNjAprmUJOtABe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fJQnpOe8vAk?si=t8z7AuaLOYzZ7SCH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

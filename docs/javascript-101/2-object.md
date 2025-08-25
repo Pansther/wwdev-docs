@@ -5,7 +5,6 @@ pubDate: 2024-06-09
 description: "Object คืออะไร ? | พื้นฐาน JavaScript EP.2"
 author: "wwDev"
 tags: ["javascript", "typescript", "js", "ts"]
-related: ["basic-js", 2]
 ---
 
 ![javascript-object-cover](/images/blog/javascript/2/1.webp)
@@ -36,3 +35,9 @@ const foo = {
 foo.cat; // แมว
 foo.fruit.orange; // ส้ม
 ```
+
+---
+
+สามารถรับชมแบบวิดีโอได้ที่นี่ครับ
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CiXcBARh5BE?si=WdHjPdBnTx_prH1z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
