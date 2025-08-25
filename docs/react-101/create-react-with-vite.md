@@ -1,10 +1,10 @@
 ---
 sidebar_position: 1
-title: "เริ่มต้นสร้าง React ด้วย Vite"
-pubDate: 2024-05-12
-description: "วันนี้เราจะเริ่มต้นสร้างโปรเจ็ค React แบบง่าย ๆ ด้วย Vite กันครับ"
-author: "wwDev"
-tags: ["javascript", "typescript", "js", "ts"]
+title: "เริ่มต้นสร้าง react ด้วย vite"
+pubdate: 2024-05-12
+description: "วันนี้เราจะเริ่มต้นสร้างโปรเจ็ค react แบบง่าย ๆ ด้วย vite กันครับ"
+author: "wwdev"
+tags: ["javascript", "typescript", "js", "ts", "react"]
 ---
 
 วันนี้เราจะเริ่มต้นสร้างโปรเจ็ค React แบบง่าย ๆ ด้วย Vite กันครับ

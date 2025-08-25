@@ -5,8 +5,8 @@ import type * as Preset from "@docusaurus/preset-classic";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "wwDev",
-  tagline: "Dinosaurs are cool",
+  title: "wwDev Documents",
+  tagline: "รวมเอกสารความรู้การพัฒนาเว็บไซต์ด้วย React",
   favicon: "img/favicon.ico",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
