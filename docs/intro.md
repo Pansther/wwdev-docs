@@ -7,6 +7,6 @@ author: "wwDev"
 tags: ["javascript", "typescript", "js", "ts", "react", "next"]
 ---
 
-สามารถเืลือกอ่านบทความได้ที่ด้านซ้ายหรือรับชมแบบคลิปวิดีโอได้ที่ Youtube ช่อง [wwDev.typing](https://youtube.com/@wwdev.typing)
+สามารถเลือกอ่านบทความได้ที่ด้านซ้ายหรือรับชมแบบคลิปวิดีโอได้ที่ Youtube ช่อง [wwDev.typing](https://youtube.com/@wwdev.typing)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1dnWZwsmpv0?si=_IS0oPHvoq4hMUM7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
