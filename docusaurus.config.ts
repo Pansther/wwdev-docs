@@ -63,7 +63,7 @@ const config: Config = {
           onUntruncatedBlogPosts: "warn",
         },
         theme: {
-          customCss: "./src/css/custom.css",
+          customCss: "./src/css/custom.scss",
         },
       } satisfies Preset.Options,
     ],
@@ -142,15 +142,8 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
-    plugins: [
-      [
-        require.resolve("docusaurus-lunr-search"),
-        {
-          languages: ["en", "th"], // language codes
-        },
-      ],
-    ],
   } satisfies Preset.ThemeConfig,
+  plugins: ["docusaurus-plugin-sass"],
 };
 
 export default config;
