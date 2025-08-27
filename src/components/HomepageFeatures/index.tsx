@@ -6,14 +6,14 @@ import Link from "@docusaurus/Link";
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<"svg">>;
+  image: string;
   description: ReactNode;
 };
 
 const FeatureList: FeatureItem[] = [
   {
     title: "เนื้อหาบทความ",
-    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
+    image: "images/home/documentation.png",
     description: (
       <>
         สามารถเลือกอ่านเนื้อหาบทความได้ ไม่ว่าจะเป็นพื้นฐาน JavaScript, React
@@ -31,7 +31,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "คลิปวิดีโอ",
-    Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
+    image: "images/home/multimedia.png",
     description: (
       <>
         รับชมคลิปวิดีโอพื้นฐาน JavaScript, React และ Next.js ได้ทาง Youtube ช่อง
@@ -50,7 +50,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "สนับสนุน",
-    Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
+    image: "images/home/bubble-tea.png",
     description: (
       <>
         สนับสนุนผมได้ด้วยการกดไลก์คลิปวิดีโอ, ติดตาม, แสดงความคิดเห็น
@@ -72,11 +72,11 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({ title, Svg, description }: FeatureItem) {
+function Feature({ title, image, description }: FeatureItem) {
   return (
     <div className={clsx("col col--4")}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img className={styles.featureSvg} src={image} />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
