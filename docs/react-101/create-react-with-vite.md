@@ -4,6 +4,7 @@ title: "เริ่มต้นสร้าง react ด้วย vite"
 pubdate: 2024-05-12
 description: "วันนี้เราจะเริ่มต้นสร้างโปรเจ็ค react แบบง่าย ๆ ด้วย vite กันครับ"
 author: "wwdev"
+image: "/images/blog/javascript/0/1.webp"
 tags: ["javascript", "typescript", "js", "ts", "react"]
 ---
 

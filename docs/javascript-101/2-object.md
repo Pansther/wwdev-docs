@@ -4,6 +4,7 @@ title: "Object คืออะไร ? | พื้นฐาน JavaScript EP.2"
 pubDate: 2024-06-09
 description: "Object คืออะไร ? | พื้นฐาน JavaScript EP.2"
 author: "wwDev"
+image: "/images/blog/javascript/2/1.webp"
 tags: ["javascript", "typescript", "js", "ts"]
 ---
 

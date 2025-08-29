@@ -4,6 +4,7 @@ title: "ตัวแปรคืออะไร ? | พื้นฐาน JavaSc
 pubDate: 2024-06-08
 description: "ตัวแปรคืออะไร ? | พื้นฐาน JavaScript EP.1"
 author: "wwDev"
+image: "/images/blog/javascript/1/1.webp"
 tags: ["javascript", "typescript", "js", "ts"]
 related: ["basic-js", 1]
 ---

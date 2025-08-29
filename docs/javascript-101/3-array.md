@@ -4,6 +4,7 @@ title: "Array คืออะไร ? | พื้นฐาน JavaScript EP.3"
 pubDate: 2024-06-23
 description: "Array คืออะไร ? | พื้นฐาน JavaScript EP.3"
 author: "wwDev"
+image: "/images/blog/javascript/3/1.webp"
 tags: ["javascript", "typescript", "js", "ts"]
 related: ["basic-js", 3]
 ---

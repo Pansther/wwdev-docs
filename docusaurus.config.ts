@@ -61,12 +61,12 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: "img/docusaurus-social-card.jpg",
+    image: "img/og_image.png",
     navbar: {
       title: "wwDev",
       logo: {
         alt: "wwDev",
-        src: "img/logo.svg",
+        src: "img/logo.JPG",
       },
       items: [
         {

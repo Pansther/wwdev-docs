@@ -4,6 +4,7 @@ title: "Async/Await คืออะไร ? | พื้นฐาน JavaScript E
 pubDate: 2025-07-20
 description: "Async/Await เป็นฟีเจอร์ที่จะช่วยให้เราสามารถเขียนโค้ดได้เหมือน synchronous"
 author: "wwDev"
+image: "/images/blog/javascript/27/1.webp"
 tags: ["javascript", "typescript", "js", "ts"]
 ---
 
