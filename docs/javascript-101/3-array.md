@@ -9,7 +9,9 @@ tags: ["javascript", "typescript", "js", "ts"]
 related: ["basic-js", 3]
 ---
 
+<div class="coverWrapper">
 ![javascript-array-cover](/images/blog/javascript/3/1.webp)
+</div>
 
 ถ้าเรามีส้มอยู่ 10 ผล แล้วต้องเก็บใส่ถุงแยกกัน ก็คงจะยกไปมาลำบากใช่ไหมครับแต่กลับกันถ้าเราเอาส้มใส่กล่องรวมกัน แบบนี้ก็จะยกไปไหนมาไหนสะดวกแล้วจริงไหมครับ
 
@@ -39,4 +41,6 @@ foo[2]; // มังคุด
 
 สามารถรับชมแบบวิดีโอได้ที่นี่ครับ
 
+<div class="videoWrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5FrkfIBu6sA?si=kNY1lvngVOLqDNjg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>

@@ -8,7 +8,9 @@ image: "/images/blog/javascript/27/1.webp"
 tags: ["javascript", "typescript", "js", "ts"]
 ---
 
+<div class="coverWrapper">
 ![async-await-cover](/images/blog/javascript/27/1.webp)
+</div>
 
 > Async/Await เป็นฟีเจอร์ที่จะช่วยให้เราสามารถเขียนโค้ดได้เหมือน **synchronous**
 
@@ -181,6 +183,14 @@ const main = () => {
 
 สามารถรับชมแบบวิดีโอได้ที่นี่ครับ
 
+<div class="videoWrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lvZXg1tLBrM?si=_y3T0qkZARBpUEKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<br />
+<div class="videoWrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cQnfKsDhpNA?si=AmWNjAprmUJOtABe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<br />
+<div class="videoWrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fJQnpOe8vAk?si=t8z7AuaLOYzZ7SCH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>

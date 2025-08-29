@@ -8,7 +8,9 @@ image: "/images/blog/javascript/2/1.webp"
 tags: ["javascript", "typescript", "js", "ts"]
 ---
 
+<div class="coverWrapper">
 ![javascript-object-cover](/images/blog/javascript/2/1.webp)
+</div>
 
 Object เป็นรูปแบบของข้อมูลที่มีลักษณะเป็น key-value คล้ายกับเวลาเราเปิด dictionary หาคำว่า cat ที่แปลว่าแมว กลับกันถ้ามองในรูปแบบของ object ก็จะมี key เป็น cat และมี value ว่าแมวนั่นเอง
 
@@ -41,4 +43,6 @@ foo.fruit.orange; // ส้ม
 
 สามารถรับชมแบบวิดีโอได้ที่นี่ครับ
 
+<div class="videoWrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CiXcBARh5BE?si=WdHjPdBnTx_prH1z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>

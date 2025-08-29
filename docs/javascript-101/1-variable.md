@@ -9,7 +9,9 @@ tags: ["javascript", "typescript", "js", "ts"]
 related: ["basic-js", 1]
 ---
 
+<div class="coverWrapper">
 ![javascript-variable-cover](/images/blog/javascript/1/1.webp)
+</div>
 
 ถ้าให้พูดง่าย ๆ ตัวแปรเปรียบเสมือนคน ๆ นึงที่จำค่าอะไรบางอย่างให้เรา โดยที่เราเป็นคนกำหนดว่าจะให้เค้าจำอะไรบ้าง สำหรับการเขียนโปรแกรม ตัวแปรเป็นสิ่งที่สำคัญมาก เนื่องจากเราจำเป็นต้องคำนวณค่าต่าง ๆ หลายค่า
 
@@ -59,4 +61,6 @@ foo = 20;
 
 สามารถรับชมแบบวิดีโอได้ที่นี่ครับ
 
+<div class="videoWrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Qwj4YwwFhgE?si=FDjoMzCy157V3mvn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
