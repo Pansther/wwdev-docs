@@ -6,7 +6,6 @@ description: "Array คืออะไร ? | พื้นฐาน JavaScript E
 author: "wwDev"
 image: "/images/blog/javascript/3/1.webp"
 tags: ["javascript", "typescript", "js", "ts"]
-related: ["basic-js", 3]
 ---
 
 <div class="coverWrapper">

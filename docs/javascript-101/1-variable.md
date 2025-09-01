@@ -6,7 +6,6 @@ description: "ตัวแปรคืออะไร ? | พื้นฐาน 
 author: "wwDev"
 image: "/images/blog/javascript/1/1.webp"
 tags: ["javascript", "typescript", "js", "ts"]
-related: ["basic-js", 1]
 ---
 
 <div class="coverWrapper">
