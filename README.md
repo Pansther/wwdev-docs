@@ -21,3 +21,5 @@ You can read all the documents for free or watch the videos on YouTube 👇👇�
 📖 อ่านบทความได้ที่: <https://wwdev-docs.vercel.app/>
 
 📹 รับชมคลิปวิดีโอได้ที่: <https://www.youtube.com/@wwDev.typing>
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F1F71JX51B)
