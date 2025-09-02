@@ -2,7 +2,9 @@
 sidebar_position: 3
 title: "Array คืออะไร ? | พื้นฐาน JavaScript EP.3"
 pubDate: 2024-06-23
-description: "Array คืออะไร ? | พื้นฐาน JavaScript EP.3"
+description: "
+ถ้ามองในเชิงการเขียนโปรแกรม Array ก็เป็นเหมือนกล่อง ที่มีไว้เก็บตัวแปรหลาย ๆ ตัวให้อยู่ด้วยกัน เพื่อความเข้าใจง่ายและความสะดวกในการใช้งานนั่นเองครับ
+"
 author: "wwDev"
 image: "/images/blog/javascript/3/1.webp"
 tags: ["javascript", "typescript", "js", "ts"]

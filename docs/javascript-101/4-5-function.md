@@ -2,7 +2,9 @@
 sidebar_position: 4
 title: "Function คืออะไร ? | พื้นฐาน JavaScript EP.4-5"
 pubDate: 2024-07-07
-description: "Function คืออะไร ? | พื้นฐาน JavaScript EP.4-5"
+description: "
+Function เป็นชุดคำสั่งหนึ่ง ที่ทำงานและจะได้ผลลัพธ์เหมือนเดิมเสมอโดยขึ้นอยู่กับค่าที่ใส่เข้าไป
+"
 author: "wwDev"
 image: "/images/blog/javascript/4/1.webp"
 tags: ["javascript", "typescript", "js", "ts"]

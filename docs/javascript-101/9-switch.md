@@ -2,7 +2,9 @@
 sidebar_position: 9
 title: "Switch คืออะไร ? | พื้นฐาน JavaScript EP.9"
 pubDate: 2024-07-29
-description: "Switch คืออะไร ? | พื้นฐาน JavaScript EP.9"
+description: "
+นอกจากการใช้ If/Else แล้ว ใน JavaScript เรายังสามารถใช้ Switch เพื่อสร้างเงื่อนไขการทำงานของโค้ดได้ครับ
+"
 author: "wwDev"
 image: "/images/blog/javascript/9/1.webp"
 tags: ["javascript", "typescript", "js", "ts"]

@@ -2,7 +2,9 @@
 sidebar_position: 11
 title: "Spread Operator คืออะไร ? | พื้นฐาน JavaScript EP.11"
 pubDate: 2024-08-11
-description: "Spread Operator คืออะไร ? | พื้นฐาน JavaScript EP.11"
+description: "
+ถ้ามีคนถามถึงสุดยอด feature เอนกประสงค์ และสารพัดประโยชน์สุด ๆ ของ JavaScript ผมคงนึกถึงอย่างอื่นไปไม่ได้ นอกจาก Spread Operator
+"
 author: "wwDev"
 image: "/images/blog/javascript/11/1.webp"
 tags: ["javascript", "typescript", "js", "ts"]

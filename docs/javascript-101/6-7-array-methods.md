@@ -2,7 +2,9 @@
 sidebar_position: 6
 title: "Array Methods คืออะไร ? | พื้นฐาน JavaScript EP.6-7"
 pubDate: 2024-07-14
-description: "Array Methods คืออะไร ? | พื้นฐาน JavaScript EP.6-7"
+description: "
+ใน JavaScript มี built in array methods ที่มีประโยชน์หลายตัวเลยครับ
+"
 author: "wwDev"
 image: "/images/blog/javascript/6/1.webp"
 tags: ["javascript", "typescript", "js", "ts"]

@@ -2,7 +2,9 @@
 sidebar_position: 8
 title: "If/Else คืออะไร ? | พื้นฐาน JavaScript EP.8"
 pubDate: 2024-07-22
-description: "If/Else คืออะไร ? | พื้นฐาน JavaScript EP.8"
+description: "
+ใน JavaScript เราสามารถกำหนดให้โค้ดของเราทำงานในเงื่อนไขต่าง ๆ ได้ครับ
+"
 author: "wwDev"
 image: "/images/blog/javascript/8/1.webp"
 tags: ["javascript", "typescript", "js", "ts"]

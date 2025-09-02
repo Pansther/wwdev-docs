@@ -2,7 +2,8 @@
 sidebar_position: 2
 title: "Object คืออะไร ? | พื้นฐาน JavaScript EP.2"
 pubDate: 2024-06-09
-description: "Object คืออะไร ? | พื้นฐาน JavaScript EP.2"
+description: "Object เป็นรูปแบบของข้อมูลที่มีลักษณะเป็น key-value คล้ายกับเวลาเราเปิด dictionary หาคำว่า cat ที่แปลว่าแมว กลับกันถ้ามองในรูปแบบของ object ก็จะมี key เป็น cat และมี value ว่าแมวนั่นเอง
+"
 author: "wwDev"
 image: "/images/blog/javascript/2/1.webp"
 tags: ["javascript", "typescript", "js", "ts"]

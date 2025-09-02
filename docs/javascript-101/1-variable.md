@@ -2,7 +2,9 @@
 sidebar_position: 1
 title: "ตัวแปรคืออะไร ? | พื้นฐาน JavaScript EP.1"
 pubDate: 2024-06-08
-description: "ตัวแปรคืออะไร ? | พื้นฐาน JavaScript EP.1"
+description: "
+ถ้าให้พูดง่าย ๆ ตัวแปรเปรียบเสมือนคน ๆ นึงที่จำค่าอะไรบางอย่างให้เรา โดยที่เราเป็นคนกำหนดว่าจะให้เค้าจำอะไรบ้าง สำหรับการเขียนโปรแกรม ตัวแปรเป็นสิ่งที่สำคัญมาก เนื่องจากเราจำเป็นต้องคำนวณค่าต่าง ๆ หลายค่า
+"
 author: "wwDev"
 image: "/images/blog/javascript/1/1.webp"
 tags: ["javascript", "typescript", "js", "ts"]

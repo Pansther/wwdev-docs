@@ -2,7 +2,8 @@
 sidebar_position: 12
 title: "Destructuring คืออะไร ? | พื้นฐาน JavaScript EP.12-14"
 pubDate: 2024-08-18
-description: "Destructuring คืออะไร ? | พื้นฐาน JavaScript EP.12-14"
+description: "Object Destructuring เป็นฟีเจอร์ที่ทำให้เราสร้างตัวแปรจาก key ของ object ได้
+"
 author: "wwDev"
 image: "/images/blog/javascript/12/1.webp"
 tags: ["javascript", "typescript", "js", "ts"]
@@ -105,7 +106,7 @@ const cat1 = {
 };
 
 const cat2 = {
-  name: "ุไข่ขาว",
+  name: "ไข่ขาว",
   type: "แมว",
 };
 ```

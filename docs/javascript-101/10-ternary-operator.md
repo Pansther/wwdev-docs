@@ -2,7 +2,9 @@
 sidebar_position: 10
 title: "Ternary Operator คืออะไร ? | พื้นฐาน JavaScript EP.10"
 pubDate: 2024-08-04
-description: "Ternary Operator คืออะไร ? | พื้นฐาน JavaScript EP.10"
+description: "
+Ternary Operator ถ้าพูดง่าย ๆ ก็คือการเขียน If/Else แบบสั้น ๆ เพื่อความสะดวกในการใช้งานนั่นเองครับ
+"
 author: "wwDev"
 image: "/images/blog/javascript/10/1.webp"
 tags: ["javascript", "typescript", "js", "ts"]
