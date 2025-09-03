@@ -31,7 +31,7 @@ const name = cat.name;
 const { name } = cat;
 ```
 
-**2. Default Value** คือ การดึงค่าเหมือนกับข้อ 1 แต่กำหนดค่า default ให้กับตัวแปรได้ เช่น ตัวอย่างโค้ด เราจะได้ค่าเป็น tuna เนื่องจากดึงค่า favoriteFood จาก object แล้วได้เป็น undefined
+**2. Default Value** คือ การดึงค่าเหมือนกับข้อ 1 แต่กำหนดค่า default ให้กับตัวแปรได้ เช่น ตัวอย่างโค้ด เราจะได้ค่าเป็น tuna เนื่องจากดึงค่า favoriteFood จาก object แล้วได้เป็น `undefined`
 
 ```javascript
 const { habits = "ขี้เล่น" } = cat;
@@ -66,7 +66,7 @@ const [first, second, thrid] = animals;
 const [, , thrid2] = animals;
 ```
 
-**2. Default Value** คือ การดึงค่าเหมือนกับข้อ 1 แต่กำหนดค่า default ให้กับตัวแปรได้ เช่น ตัวอย่างโค้ด เราจะได้ค่าเป็นแมว เนื่องจากดึงค่าจาก array แล้วได้เป็น undefined
+**2. Default Value** คือ การดึงค่าเหมือนกับข้อ 1 แต่กำหนดค่า default ให้กับตัวแปรได้ เช่น ตัวอย่างโค้ด เราจะได้ค่าเป็นแมว เนื่องจากดึงค่าจาก array แล้วได้เป็น `undefined`
 
 ```javascript
 const [, , , fourth = "แมว"] = animals;

@@ -14,7 +14,7 @@ tags: ["javascript", "typescript", "js", "ts"]
 
 > Async/Await เป็นฟีเจอร์ที่จะช่วยให้เราสามารถเขียนโค้ดได้เหมือน **synchronous**
 
-**async** จะเอาไว้ใส่กับฟังก์ชันที่เราต้องการให้ส่งค่าเป็น promise ออกมาเสมอครับ แม้ว่าฟังก์ชันของผมจะทำงานแบบ synchronous แต่ถ้าใช้ async แล้ว ก็จะส่งค่าออกมาเป็น promise อยู่ดีครับ จากตัวอย่างจะส่งออกมาเป็น promise ทั้งคู่ครับ
+`async` จะเอาไว้ใส่กับฟังก์ชันที่เราต้องการให้ส่งค่าเป็น promise ออกมาเสมอครับ แม้ว่าฟังก์ชันของผมจะทำงานแบบ synchronous แต่ถ้าใช้ `async` แล้ว ก็จะส่งค่าออกมาเป็น promise อยู่ดีครับ จากตัวอย่างจะส่งออกมาเป็น promise ทั้งคู่ครับ
 
 ```ts
 const getUserPromise = (id) => {
@@ -22,13 +22,14 @@ const getUserPromise = (id) => {
     resolve(database.getUserById(id));
   });
 };
+
 // ใส่ async แล้วจะทำให้ส่งค่าออกมาเป็น Promise เสมอ
 const getUserAsync = async (id) => {
   return database.getUserById(id);
 };
 ```
 
-หากผมมีฟังก์ชันที่ส่ง promise ออกมา แทนที่ผมจะใช้ .then เพื่อรับค่า ผมสามารถใช้ **await** แทน และสร้างตัวแปรแบบนี้ แล้วก็เอาตัวแปรไปใช้ต่อได้เลยครับ
+หากผมมีฟังก์ชันที่ส่ง promise ออกมา แทนที่ผมจะใช้ `.then` เพื่อรับค่า ผมสามารถใช้ `await` แทน และสร้างตัวแปรแบบนี้ แล้วก็เอาตัวแปรไปใช้ต่อได้เลยครับ
 
 ```ts
 const hello = async () => {
@@ -36,16 +37,18 @@ const hello = async () => {
   getUserPromise(1)
     .then((user) => getFoo(user))
     .then((foo) => console.log("foo", foo));
+
   // 2. เขียนแบบ async await
   const user = await getUserPromise(1);
+
   const foo = await getFoo(user);
   console.log("foo", foo);
 };
 ```
 
-แม้ว่า promise จะสามารถ .then ต่อกันได้ แต่ await ก็สามารถส่งค่าเข้าไปแบบนี้ได้เลยเช่นกันครับ แต่มีข้อกำหนดคือ **await สามารถเรียกใช้ในฟังก์ชัน async เท่านั้น**
+แม้ว่า promise จะสามารถ `.then` ต่อกันได้ แต่ `await` ก็สามารถส่งค่าเข้าไปแบบนี้ได้เลยเช่นกันครับ แต่มีข้อกำหนดคือ **await สามารถเรียกใช้ในฟังก์ชัน async เท่านั้น**
 
-เราสามารถดัก error ได้ผ่านการครอบ await ของเราด้วย try catch ครับ หากมี error เกิดขึ้น ใน try ก็จะหยุดทำงาน และโยน error ไปที่ catch นั่นเองครับ แน่นอนว่ามี finally ให้ใช้เหมือน promise ด้วยนะครับ
+เราสามารถดัก error ได้ผ่านการครอบ await ของเราด้วย `try catch` ครับ หากมี error เกิดขึ้น ใน `try` ก็จะหยุดทำงาน และโยน error ไปที่ `catch` นั่นเองครับ แน่นอนว่ามี `finally` ให้ใช้เหมือน promise ด้วยนะครับ
 
 ```ts
 const hello = async () => {
@@ -101,7 +104,7 @@ const main = async () => {
 };
 ```
 
-วิธีแก้คือเรานำ await ออกก่อน จะได้ promise ที่ pending มา แล้วค่อยมา await ทีหลังนั่นเองครับ
+วิธีแก้คือเรานำ `await` ออกก่อน จะได้ promise ที่ pending มา แล้วค่อยมา `await` ทีหลังนั่นเองครับ
 
 ```ts
 const main = async () => {
@@ -117,7 +120,7 @@ const main = async () => {
 };
 ```
 
-นอกจากนี้ยังสามารถใช้ promise.all หรือ promise.allSettled เพื่อให้โค้ดทำงานแบบ pararell ได้อีกด้วยครับ
+นอกจากนี้ยังสามารถใช้ `promise.all` หรือ `promise.allSettled` เพื่อให้โค้ดทำงานแบบ pararell ได้อีกด้วยครับ
 
 ```ts
 const main3 = async () => {

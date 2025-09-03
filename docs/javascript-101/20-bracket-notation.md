@@ -1,5 +1,5 @@
 ---
-sidebar_position: 18
+sidebar_position: 20
 title: "Bracket Notation คืออะไร ? | พื้นฐาน JavaScript EP.20"
 pubDate: 2025-02-09
 description: "
@@ -11,7 +11,7 @@ tags: ["javascript", "typescript", "js", "ts"]
 ---
 
 <div class="coverWrapper">
-![javascript-nullish-optional](/images/blog/javascript/20/1.webp)
+![javascript-bracket](/images/blog/javascript/20/1.webp)
 </div>
 
 ปกติแล้วใน JavaScript เราเข้าถึง property ของ object ด้วยการใช้ object จุด property ที่เราต้องการใช่ไหมครับ สิ่งนี้มีชื่อเรียกว่า dot notation

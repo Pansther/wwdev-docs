@@ -76,7 +76,7 @@ const config: Config = {
           label: "บทความ",
         },
         {
-          href: "https://github.com/Pansther",
+          href: "https://github.com/Pansther/wwdev-docs",
           label: "GitHub",
           position: "right",
         },
@@ -103,7 +103,7 @@ const config: Config = {
           title: "เพิ่มเติม",
           items: [
             {
-              href: "https://github.com/Pansther",
+              href: "https://github.com/Pansther/wwdev-docs",
               label: "GitHub",
               position: "right",
             },

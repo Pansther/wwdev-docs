@@ -29,7 +29,7 @@ const color = "สีฟ้า";
 
 ## Create String
 
-สร้าง string ธรรมดาเหมือนกับการใช้ "" (double quote) หรือ '' (single quote)
+สร้าง string ธรรมดาเหมือนกับการใช้ `""` (double quote) หรือ `''` (single quote)
 
 ```javascript
 const foo = `wwDev สวัสดีครับ`;
