@@ -16,9 +16,11 @@ tags: ["javascript", "typescript", "js", "ts", "react"]
 
 <br />
 
-Component เป็นชิ้นส่วน ui ชิ้นนึงที่สามารถนำไป reuse ได้ โดยอาจจะมีขนาดเล็กมาก ๆ หรือใหญ่มากก็ได้เช่นกัน
+## Component
 
-Component ที่จริงแล้วก็เหมือนฟังก์ชันปกติทั่วไปของ JavaScript ครับ แตกต่างตรงที่ว่าฟังก์ชันทั่วไปเราจะส่งค่าออกเป็น string, booelan หรือ object ใช่ไหมครับ แต่ใน Component เราจะส่งค่าออกเป็น JSX แบบนี้ครับ
+เป็นชิ้นส่วน UI ชิ้นนึงที่สามารถนำไป Reuse ได้ โดยอาจจะมีขนาดเล็กมาก ๆ หรือใหญ่มากก็ได้เช่นกัน
+
+Component ที่จริงแล้วก็เหมือนฟังก์ชันปกติทั่วไปของ JavaScript ครับ แตกต่างตรงที่ว่าฟังก์ชันทั่วไปเราจะส่งค่าออกเป็น String, Boolean หรือ Object ใช่ไหมครับ แต่ใน Component เราจะส่งค่าออกเป็น **JSX** แบบนี้ครับ
 
 ```tsx
 const normalFunction = () => {
@@ -30,31 +32,49 @@ const MyComponent = () => {
 };
 ```
 
-การสร้าง Component จะเหมือนกับการสร้างฟังก์ชันตามปกติเลยครับ นั่นคือใช้ keyword function หรือ arrow function ก็ได้ แต่ parameters จะมีแค่ 2 ตัวเท่านั้นครับ คือ
+การสร้าง Component จะเหมือนกับการสร้างฟังก์ชันตามปกติเลยครับ นั่นคือใช้ Keyword Function หรือ Arrow Function ก็ได้ แต่ Parameters จะมี**แค่ 2 ตัวเท่านั้น** ได้แก่
 
-1. props
-2. ref
+1. Props
+2. Ref
 
 ```tsx
-const MyComponent2 = (props, ref) => {
+const MyComponent = (props, ref) => {
   return (
-    <>
+    <div>
       <div>Hello, World!</div>
       <div>wwDev React</div>
-    </>
+    </div>
   );
 };
 ```
 
-เดี๋ยวเราจะลงรายละเอียดของ 2 ตัวนี้ในคลิปถัด ๆ ไปนะครับ เพิ่มเติมสำหรับ react version 19 เป็นต้นไปจะเหลือ parameters แค่ตัวเดียว เพราะ ref จะไม่แยกออกมาแต่จะถูกรวมไว้ใน props เลยครับ
+เดี๋ยวเราจะลงรายละเอียดของ 2 ตัวนี้ในคลิปถัด ๆ ไปนะครับ
 
-มีข้อกำหนดคือ ต้องตั้งชื่อให้ตัวอักษรตัวแรกเป็นภาษาอังกฤษตัวพิมพ์ใหญ่เท่านั้น และเราสามารถส่ง JSX ออกได้เพียงตัวเดียวเท่านั้น
+:::info[React Version 19]
 
-ซึ่งเป็นเรื่องปกติของฟังก์ชันอยู่แล้วที่ส่งค่าออกได้เพียงตัวเดียว ถ้าเป็นฟังก์ชันทั่วไปเราสามารถครอบ object หรือ array ก็จะทำให้ส่งค่าออกไปหลายตัวได้ ส่วนของ Component เราจะครอบด้วย **React Fragment** หรือเขียนย่อ เป็น tag เปล่า (\<\>\<\/\>) แบบนี้แทน และแน่นอนว่าเราสามารถสร้าง condition ในการ return ได้เหมือนกับฟังก์ชันปกติด้วยครับ
+เพิ่มเติมสำหรับ React Version 19 เป็นต้นไปจะเหลือ **Parameters แค่ตัวเดียว** เพราะ Ref จะไม่แยกออกมาแต่จะถูกรวมไว้ใน Props เลยครับ
+[อ่านเพิ่มเติม](https://react.dev/blog/2024/12/05/react-19#improvements-in-react-19)
+
+:::
+
+---
+
+## การสร้าง Component
+
+มีข้อกำหนด 2 ข้อ ได้แก่
+
+1. ตั้งชื่อให้ตัวอักษรตัวแรกเป็นภาษาอังกฤษตัวพิมพ์ใหญ่เท่านั้น
+2. สามารถส่ง JSX ออกได้เพียงตัวเดียวเท่านั้น
+
+ซึ่งเป็นเรื่องปกติของฟังก์ชันอยู่แล้วที่ส่งค่าออกได้เพียงตัวเดียว ถ้าเป็นฟังก์ชันทั่วไปเราสามารถครอบ Object หรือ Array ก็จะทำให้ส่งค่าออกไปหลายตัวได้ ส่วนของ Component เราจะครอบด้วย **React Fragment** หรือเขียนย่อ เป็น Tag เปล่า `<></>` แบบนี้แทน และแน่นอนว่าเราสามารถสร้างเงื่อนไขในการส่งค่าออกไปได้เหมือนกับฟังก์ชันปกติด้วยครับ
 
 ```tsx
 export const MyFunctionComponent = (props) => {
   if (props.isOpen) return <>Open</>;
+
+  return <React.Fragment>Hello World</React.Fragment>;
+
+  // หรือแบบสั้น ๆ
 
   return <>Hello World</>;
 };
@@ -62,12 +82,38 @@ export const MyFunctionComponent = (props) => {
 
 ที่จริงแล้วใน React เราสามารถสร้าง Component ได้ 2 แบบ คือ
 
-1. Function component
-2. Class component
+1. Function Component
+2. Class Component
 
-ทั้ง 2 แบบเป็น Component เหมือนกัน สามารถนำไปใช้งานได้ไม่แตกต่างกันเลย แต่จะต่างกันในตอนสร้าง Component ครับ
+ทั้ง 2 แบบเป็น Component เหมือนกัน สามารถนำไปใช้งานได้ไม่แตกต่างกันเลย แต่จะ**ต่างกันในตอนสร้าง Component** โดยที่การสร้าง Component ทั้ง 2 แบบมีรายละเอียดและเทคนิคในการสร้างที่แตกต่างกันไปครับ
+
+### Function Component
+
+เราสามารถใช้ React Hook ได้ เช่น การสร้าง State ด้วย `useState` หรือ การเข้าถึง React Lifecycle ผ่าน `useEffect` เป็นต้น
 
 ```tsx
+// ตัวอย่าง Function Component
+interface MyState {
+  message: string;
+}
+
+export const MyFunctionComponent = () => {
+  const [state, setState] = useState<MyState>({
+    message: "",
+  });
+
+  useEffect(() => setState({ message: "Hello, World!" }), []);
+
+  return <>{state.message}</>;
+};
+```
+
+### Class Component
+
+เราจะเข้าถึง State ผ่าน `this.state` หรือ เข้าถึง React Lifecycle ผ่าน `componentDidMount` เป็นต้นครับ
+
+```tsx
+// ตัวอย่าง Class Component
 export class MyClassComponent extends React.Component<void, MyState> {
   constructor() {
     super();
@@ -89,26 +135,6 @@ export class MyClassComponent extends React.Component<void, MyState> {
 }
 ```
 
-การสร้าง Component ทั้ง 2 แบบมีรายละเอียดและเทคนิคในการสร้างที่แตกต่างกันไปครับ
-
-function Component เราสามารถใช้ hook ได้ เช่น การสร้าง state ด้วย useState หรือ การเข้าถึง react lifecycle ผ่าน useEffect เป็นต้น แต่ class Component เราจะเข้าถึง state ผ่าน this.state หรือ เข้าถึง react lifecycle ผ่าน componentDidMount เป็นต้นครับ
-
-```tsx
-interface MyState {
-  message: string;
-}
-
-export const MyFunctionComponent = () => {
-  const [state, setState] = useState<MyState>({
-    message: "",
-  });
-
-  useEffect(() => setState({ message: "Hello, World!" }), []);
-
-  return <>{state.message}</>;
-};
-```
-
-แต่ในปัจจุบันนิยมการเขียนแบบ function Component มากกว่าครับ
+แต่ในปัจจุบันนิยมการเขียนแบบ Function Component มากกว่าครับ
 
 ถ้าเพื่อน ๆ คนไหนยังไม่คุ้นชินกับคำแปลก ๆ ก่อนหน้านี้ไม่ต้องกังวลนะครับ เดี๋ยวเราจะไปคุยกันในตอนถัด ๆ ไปแน่นอนครับ
